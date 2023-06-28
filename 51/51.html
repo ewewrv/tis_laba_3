@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Моя первая программа</title>
+		<script>
+			"use strict";
+let q = Boolean(3);
+alert(q);//true
+let w = Boolean(0);
+alert(w);//false
+let e = Boolean(-1);
+alert(e);//true
+let r = Boolean(-0);
+alert(r);//false
+let t = Boolean(+0);
+alert(t);//false
+let y = Boolean('abc');
+alert(y);//true
+let u = Boolean('');
+alert(u);//false
+let i = Boolean('0');
+alert(i);//true
+let o = Boolean(true);
+alert(o);//true
+let p = Boolean(false);
+alert(p);//false
+let a = Boolean('true');
+alert(a);//true
+let s = Boolean('false');
+alert(s);//true
+let d = Boolean(null);
+alert(d);//false
+let f = Boolean('null');
+alert(f);//true
+let g = Boolean(undefined);
+alert(g);//false
+let h = Boolean(undefined);
+alert(h);//false
+let j = Boolean(NaN);
+alert(j);//false
+let k = Boolean('NaN');
+alert(k);//true
+let l = Boolean(3 * 'abc');
+alert(l);//false
+let z = Boolean(Infinity);
+alert(z);//true
+let c = Boolean(Infinity);
+alert(c);//false
+		</script>
+	</head>
+	<body>
+		...
+	</body>
+</html>
